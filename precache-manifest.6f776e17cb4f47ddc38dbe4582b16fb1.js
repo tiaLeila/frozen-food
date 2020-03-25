@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8deabf91571ea864826f38899284eb69",
+    "revision": "28105c63130beb35e09066106b3a1b99",
     "url": "/frozen-foods/index.html"
   },
   {
