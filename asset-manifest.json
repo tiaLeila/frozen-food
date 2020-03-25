@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/frozen-foods/static/css/main.2ff59bab.chunk.css",
-    "main.js": "/frozen-foods/static/js/main.1b49fddc.chunk.js",
-    "main.js.map": "/frozen-foods/static/js/main.1b49fddc.chunk.js.map",
+    "main.css": "/frozen-foods/static/css/main.927e0cda.chunk.css",
+    "main.js": "/frozen-foods/static/js/main.e58fe38e.chunk.js",
+    "main.js.map": "/frozen-foods/static/js/main.e58fe38e.chunk.js.map",
     "runtime-main.js": "/frozen-foods/static/js/runtime-main.310e6d8c.js",
     "runtime-main.js.map": "/frozen-foods/static/js/runtime-main.310e6d8c.js.map",
     "static/js/2.f0e9025a.chunk.js": "/frozen-foods/static/js/2.f0e9025a.chunk.js",
     "static/js/2.f0e9025a.chunk.js.map": "/frozen-foods/static/js/2.f0e9025a.chunk.js.map",
     "index.html": "/frozen-foods/index.html",
-    "precache-manifest.6f776e17cb4f47ddc38dbe4582b16fb1.js": "/frozen-foods/precache-manifest.6f776e17cb4f47ddc38dbe4582b16fb1.js",
+    "precache-manifest.9cf8d0dec5dd1ab809f02e9df71da417.js": "/frozen-foods/precache-manifest.9cf8d0dec5dd1ab809f02e9df71da417.js",
     "service-worker.js": "/frozen-foods/service-worker.js",
-    "static/css/main.2ff59bab.chunk.css.map": "/frozen-foods/static/css/main.2ff59bab.chunk.css.map",
+    "static/css/main.927e0cda.chunk.css.map": "/frozen-foods/static/css/main.927e0cda.chunk.css.map",
     "static/js/2.f0e9025a.chunk.js.LICENSE.txt": "/frozen-foods/static/js/2.f0e9025a.chunk.js.LICENSE.txt",
     "static/media/logoSlogan.png": "/frozen-foods/static/media/logoSlogan.481c13ec.png",
-    "static/media/App.css": "/frozen-foods/static/media/meals-type-home.53532543.jpg"
+    "static/media/Home.css": "/frozen-foods/static/media/meals-type-home.53532543.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.310e6d8c.js",
     "static/js/2.f0e9025a.chunk.js",
-    "static/css/main.2ff59bab.chunk.css",
-    "static/js/main.1b49fddc.chunk.js"
+    "static/css/main.927e0cda.chunk.css",
+    "static/js/main.e58fe38e.chunk.js"
   ]
 }
