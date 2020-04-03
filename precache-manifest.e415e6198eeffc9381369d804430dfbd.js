@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cb12c4168ca1e11e3dc6c24d28502dc",
+    "revision": "55766739f05a1938bfd131a59a35ae70",
     "url": "/frozen-foods/index.html"
   },
   {
-    "revision": "5f1625f8b873d2cb81c1",
+    "revision": "02b61b9a0352b2970317",
     "url": "/frozen-foods/static/css/main.b8d993a7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/js/2.10c637f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f1625f8b873d2cb81c1",
-    "url": "/frozen-foods/static/js/main.bb4fa984.chunk.js"
+    "revision": "02b61b9a0352b2970317",
+    "url": "/frozen-foods/static/js/main.57cfbb5b.chunk.js"
   },
   {
     "revision": "5193e038d278d28c4b15",
