@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb8874662501760cf31d417092db8a22",
+    "revision": "9a29bdc22808d1c99aa0b246975b083a",
     "url": "/frozen-foods/index.html"
   },
   {
-    "revision": "b4528d2bf839206aa8dd",
-    "url": "/frozen-foods/static/css/main.fb18ee36.chunk.css"
+    "revision": "9bfb33ac52ceb81e9dcb",
+    "url": "/frozen-foods/static/css/main.15d696c6.chunk.css"
   },
   {
-    "revision": "d438225d668e807abfdd",
-    "url": "/frozen-foods/static/js/2.6a690c36.chunk.js"
+    "revision": "63940a8706b1229e59f1",
+    "url": "/frozen-foods/static/js/2.8df2dcd6.chunk.js"
   },
   {
     "revision": "9690d358bfa0b906346a6a94f4900583",
-    "url": "/frozen-foods/static/js/2.6a690c36.chunk.js.LICENSE.txt"
+    "url": "/frozen-foods/static/js/2.8df2dcd6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4528d2bf839206aa8dd",
-    "url": "/frozen-foods/static/js/main.715bd01a.chunk.js"
+    "revision": "9bfb33ac52ceb81e9dcb",
+    "url": "/frozen-foods/static/js/main.092c87d0.chunk.js"
   },
   {
     "revision": "5193e038d278d28c4b15",
