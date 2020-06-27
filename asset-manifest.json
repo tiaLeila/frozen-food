@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/frozen-foods/static/css/main.165f4500.chunk.css",
-    "main.js": "/frozen-foods/static/js/main.d74d230e.chunk.js",
-    "main.js.map": "/frozen-foods/static/js/main.d74d230e.chunk.js.map",
+    "main.js": "/frozen-foods/static/js/main.2079a18c.chunk.js",
+    "main.js.map": "/frozen-foods/static/js/main.2079a18c.chunk.js.map",
     "runtime-main.js": "/frozen-foods/static/js/runtime-main.310e6d8c.js",
     "runtime-main.js.map": "/frozen-foods/static/js/runtime-main.310e6d8c.js.map",
     "static/js/2.43e60a60.chunk.js": "/frozen-foods/static/js/2.43e60a60.chunk.js",
     "static/js/2.43e60a60.chunk.js.map": "/frozen-foods/static/js/2.43e60a60.chunk.js.map",
     "index.html": "/frozen-foods/index.html",
-    "precache-manifest.fe1226ccb82833196327ef2aed455233.js": "/frozen-foods/precache-manifest.fe1226ccb82833196327ef2aed455233.js",
+    "precache-manifest.bae82976d104ac03cd5e3acc205a94da.js": "/frozen-foods/precache-manifest.bae82976d104ac03cd5e3acc205a94da.js",
     "service-worker.js": "/frozen-foods/service-worker.js",
     "static/css/main.165f4500.chunk.css.map": "/frozen-foods/static/css/main.165f4500.chunk.css.map",
     "static/js/2.43e60a60.chunk.js.LICENSE.txt": "/frozen-foods/static/js/2.43e60a60.chunk.js.LICENSE.txt",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.310e6d8c.js",
     "static/js/2.43e60a60.chunk.js",
     "static/css/main.165f4500.chunk.css",
-    "static/js/main.d74d230e.chunk.js"
+    "static/js/main.2079a18c.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/frozen-foods/precache-manifest.fe1226ccb82833196327ef2aed455233.js"
+  "/frozen-foods/precache-manifest.bae82976d104ac03cd5e3acc205a94da.js"
 );
 
 self.addEventListener('message', (event) => {
