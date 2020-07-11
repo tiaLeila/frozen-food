@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64277ff78440be27e1e7c465c759d4cc",
+    "revision": "27073fd8ba9b014d0efee78237382cbc",
     "url": "/frozen-foods/index.html"
   },
   {
-    "revision": "d04435f9443a5d0e0fbc",
+    "revision": "a189a0a37591ddabbfd5",
     "url": "/frozen-foods/static/css/main.165f4500.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/js/2.43e60a60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d04435f9443a5d0e0fbc",
-    "url": "/frozen-foods/static/js/main.1b39c06b.chunk.js"
+    "revision": "a189a0a37591ddabbfd5",
+    "url": "/frozen-foods/static/js/main.fae3389b.chunk.js"
   },
   {
     "revision": "5193e038d278d28c4b15",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/media/dish06.249f0b0b.jpg"
   },
   {
-    "revision": "e6b6fb0a9ebcded502ef2997a18bf05e",
-    "url": "/frozen-foods/static/media/dish07.e6b6fb0a.jpg"
+    "revision": "402d27b2a468925a5c1b4665def8ac26",
+    "url": "/frozen-foods/static/media/dish07.402d27b2.png"
   },
   {
     "revision": "f315b42fb0d64bc74dfae6d1095df034",

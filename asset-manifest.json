@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/frozen-foods/static/css/main.165f4500.chunk.css",
-    "main.js": "/frozen-foods/static/js/main.1b39c06b.chunk.js",
-    "main.js.map": "/frozen-foods/static/js/main.1b39c06b.chunk.js.map",
+    "main.js": "/frozen-foods/static/js/main.fae3389b.chunk.js",
+    "main.js.map": "/frozen-foods/static/js/main.fae3389b.chunk.js.map",
     "runtime-main.js": "/frozen-foods/static/js/runtime-main.310e6d8c.js",
     "runtime-main.js.map": "/frozen-foods/static/js/runtime-main.310e6d8c.js.map",
     "static/js/2.43e60a60.chunk.js": "/frozen-foods/static/js/2.43e60a60.chunk.js",
     "static/js/2.43e60a60.chunk.js.map": "/frozen-foods/static/js/2.43e60a60.chunk.js.map",
     "index.html": "/frozen-foods/index.html",
-    "precache-manifest.717a33149834fd71f0ac4f0f916cc3bb.js": "/frozen-foods/precache-manifest.717a33149834fd71f0ac4f0f916cc3bb.js",
+    "precache-manifest.79c2cdc46ba0e925b1333399db65c759.js": "/frozen-foods/precache-manifest.79c2cdc46ba0e925b1333399db65c759.js",
     "service-worker.js": "/frozen-foods/service-worker.js",
     "static/css/main.165f4500.chunk.css.map": "/frozen-foods/static/css/main.165f4500.chunk.css.map",
     "static/js/2.43e60a60.chunk.js.LICENSE.txt": "/frozen-foods/static/js/2.43e60a60.chunk.js.LICENSE.txt",
@@ -18,7 +18,7 @@
     "static/media/dish04.jpg": "/frozen-foods/static/media/dish04.c9240b7a.jpg",
     "static/media/dish05.jpg": "/frozen-foods/static/media/dish05.00004696.jpg",
     "static/media/dish06.jpg": "/frozen-foods/static/media/dish06.249f0b0b.jpg",
-    "static/media/dish07.jpg": "/frozen-foods/static/media/dish07.e6b6fb0a.jpg",
+    "static/media/dish07.png": "/frozen-foods/static/media/dish07.402d27b2.png",
     "static/media/dish08.jpg": "/frozen-foods/static/media/dish08.f315b42f.jpg",
     "static/media/dish09.jpg": "/frozen-foods/static/media/dish09.e4f73f4d.jpg",
     "static/media/dish10.jpg": "/frozen-foods/static/media/dish10.d154f542.jpg",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.310e6d8c.js",
     "static/js/2.43e60a60.chunk.js",
     "static/css/main.165f4500.chunk.css",
-    "static/js/main.1b39c06b.chunk.js"
+    "static/js/main.fae3389b.chunk.js"
   ]
 }
