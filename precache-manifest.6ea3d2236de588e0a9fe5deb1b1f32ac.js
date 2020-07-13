@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f154cdd8a3aa07f85ad4d46b91f61de5",
+    "revision": "9f9c0e088c83a2dc6f20208eb7afac32",
     "url": "/frozen-foods/index.html"
   },
   {
-    "revision": "800c4e290986fd85bfb5",
+    "revision": "61a183c4130cc2bf7d7c",
     "url": "/frozen-foods/static/css/main.165f4500.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/js/2.43e60a60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "800c4e290986fd85bfb5",
-    "url": "/frozen-foods/static/js/main.19baf649.chunk.js"
+    "revision": "61a183c4130cc2bf7d7c",
+    "url": "/frozen-foods/static/js/main.2f7b852b.chunk.js"
   },
   {
     "revision": "5193e038d278d28c4b15",
@@ -92,40 +92,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/media/dish17.e9fb19e1.png"
   },
   {
+    "revision": "cc7b69b20a3bf163702773a3ebcdd219",
+    "url": "/frozen-foods/static/media/dish18.cc7b69b2.jpg"
+  },
+  {
     "revision": "4a1d5997101cc0d7e88904d9ad3f0e03",
-    "url": "/frozen-foods/static/media/dish18.4a1d5997.jpg"
+    "url": "/frozen-foods/static/media/dish19.4a1d5997.jpg"
   },
   {
     "revision": "276063f8287fefa5ac61d90943e68e81",
-    "url": "/frozen-foods/static/media/dish19.276063f8.jpg"
+    "url": "/frozen-foods/static/media/dish20.276063f8.jpg"
   },
   {
     "revision": "1289e835f377a24564c5e68af1aa9762",
-    "url": "/frozen-foods/static/media/dish20.1289e835.jpg"
+    "url": "/frozen-foods/static/media/dish21.1289e835.jpg"
   },
   {
     "revision": "02a409833df6561300a1a018c4c4a0c3",
-    "url": "/frozen-foods/static/media/dish21.02a40983.jpg"
+    "url": "/frozen-foods/static/media/dish22.02a40983.jpg"
   },
   {
     "revision": "8d81cf84d39eebeaa0b931b9aa6eca0a",
-    "url": "/frozen-foods/static/media/dish22.8d81cf84.jpg"
+    "url": "/frozen-foods/static/media/dish23.8d81cf84.jpg"
   },
   {
     "revision": "be73fb1ac477d66d4186bb657b3bacec",
-    "url": "/frozen-foods/static/media/dish23.be73fb1a.jpg"
+    "url": "/frozen-foods/static/media/dish24.be73fb1a.jpg"
   },
   {
     "revision": "57f15e9ff72eb2b079aeb8e8fb349abd",
-    "url": "/frozen-foods/static/media/dish24.57f15e9f.jpg"
+    "url": "/frozen-foods/static/media/dish25.57f15e9f.jpg"
   },
   {
     "revision": "a9dc3363a1a9533178780939d9007363",
-    "url": "/frozen-foods/static/media/dish25.a9dc3363.jpg"
+    "url": "/frozen-foods/static/media/dish26.a9dc3363.jpg"
   },
   {
     "revision": "2c392083e9931d2f4d2569ec5c69cbfc",
-    "url": "/frozen-foods/static/media/dish26.2c392083.jpg"
+    "url": "/frozen-foods/static/media/dish27.2c392083.jpg"
   },
   {
     "revision": "92187910265d03a193d25504ae31b78e",
