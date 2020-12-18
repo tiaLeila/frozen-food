@@ -177,7 +177,7 @@ const CeiaNatal = () => {
             <Promo>
                 <div>
                     <h2>Leve uma <span>Ceia de Natal</span> e</h2>
-                    <h1><span>GANHE 20% de DESCONTO</span></h1>
+                    <h1><span>GANHE 10% de DESCONTO</span></h1>
                     <h2>na <span>Ceia de Reveillon</span></h2>
                 </div>
                 <CTA
