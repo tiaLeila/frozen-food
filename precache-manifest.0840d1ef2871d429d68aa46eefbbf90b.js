@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8987116cb9eab22ce5d422673168be4",
+    "revision": "e0c0a1a6953a3aac267ef0714ebbf135",
     "url": "/frozen-foods/index.html"
   },
   {
-    "revision": "ea58ded0ae72ff12ea8f",
+    "revision": "d765d09e0de4adf82e29",
     "url": "/frozen-foods/static/css/main.c33a1955.chunk.css"
   },
   {
-    "revision": "2f8d93ea181be874a650",
-    "url": "/frozen-foods/static/js/2.5fa9a8ad.chunk.js"
+    "revision": "0504217f08b0f8b86753",
+    "url": "/frozen-foods/static/js/2.f4b15924.chunk.js"
   },
   {
     "revision": "216e537bacc64f9dbaabd26649a9ab95",
-    "url": "/frozen-foods/static/js/2.5fa9a8ad.chunk.js.LICENSE.txt"
+    "url": "/frozen-foods/static/js/2.f4b15924.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea58ded0ae72ff12ea8f",
-    "url": "/frozen-foods/static/js/main.851a0651.chunk.js"
+    "revision": "d765d09e0de4adf82e29",
+    "url": "/frozen-foods/static/js/main.111b481b.chunk.js"
   },
   {
     "revision": "5193e038d278d28c4b15",
@@ -140,24 +140,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/media/9.80c466e2.jpg"
   },
   {
-    "revision": "3dfe2a51ca466c2b605384c9b4e9e841",
-    "url": "/frozen-foods/static/media/arroz-branco.3dfe2a51.jpg"
+    "revision": "5932ab2098df97eb0b8f0342cf22b737",
+    "url": "/frozen-foods/static/media/arroz-branco.5932ab20.jpg"
   },
   {
-    "revision": "06acd5b66595c779c3ec0646011ef580",
-    "url": "/frozen-foods/static/media/arroz-grega.06acd5b6.jpg"
+    "revision": "7f2245ed82500ad7fd7a58bd91874f5d",
+    "url": "/frozen-foods/static/media/arroz-grega.7f2245ed.jpg"
   },
   {
-    "revision": "b8431235074c3bf8d3d54db9140731bb",
-    "url": "/frozen-foods/static/media/chester-ceia.b8431235.jpg"
+    "revision": "98255b91baae0f6d136d19dcdc6bf35d",
+    "url": "/frozen-foods/static/media/chester-ceia.98255b91.jpg"
   },
   {
-    "revision": "108b7240767e220f44fe323567da6884",
-    "url": "/frozen-foods/static/media/chester.108b7240.jpg"
+    "revision": "9b7f87d3f478df5cb9ac53d9c518e1c1",
+    "url": "/frozen-foods/static/media/chester.9b7f87d3.jpg"
   },
   {
-    "revision": "5fb43600fc3d2c8d12160fe288a57564",
-    "url": "/frozen-foods/static/media/chocotone.5fb43600.jpg"
+    "revision": "fda23f1733cf7d07f2e25e1fc6c7c632",
+    "url": "/frozen-foods/static/media/chocotone.fda23f17.jpg"
   },
   {
     "revision": "8a804b3b34d2d77fb3516f90d5817c12",
@@ -268,12 +268,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/media/dish27.2c392083.jpg"
   },
   {
-    "revision": "48b72997dd7b45f1fb410d0171c606d1",
-    "url": "/frozen-foods/static/media/farofa.48b72997.jpg"
+    "revision": "2c3334f69c102d69d7597224c510ef91",
+    "url": "/frozen-foods/static/media/farofa.2c3334f6.jpg"
   },
   {
-    "revision": "cd60fb3c1c0eba4c0307c9eff95ab132",
-    "url": "/frozen-foods/static/media/gift.cd60fb3c.png"
+    "revision": "85ffe14ebde4427a4fdd49cb29b137e6",
+    "url": "/frozen-foods/static/media/gift.85ffe14e.png"
   },
   {
     "revision": "92187910265d03a193d25504ae31b78e",
@@ -282,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35f0a5532d48915b14f82450a1abdeee",
     "url": "/frozen-foods/static/media/hungry-emoji.35f0a553.png"
+  },
+  {
+    "revision": "058aa8a1be61152cd10a0bc5dbf20f1f",
+    "url": "/frozen-foods/static/media/lentilha.058aa8a1.png"
   },
   {
     "revision": "936adec7a14ac90c514c0c187e6ee1d9",
@@ -300,44 +304,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frozen-foods/static/media/logoSlogan.481c13ec.png"
   },
   {
-    "revision": "53f07013a263f0e5bf03f09ce914f7f1",
-    "url": "/frozen-foods/static/media/maionese-aipim.53f07013.jpg"
+    "revision": "2bbcceb898437c2987ccb605b768f053",
+    "url": "/frozen-foods/static/media/maionese-aipim.2bbcceb8.jpg"
   },
   {
-    "revision": "d9c0d0f175c580da840b4a3a5b57a550",
-    "url": "/frozen-foods/static/media/maionese-batata.d9c0d0f1.jpg"
+    "revision": "a6a724ab77a2b0e39a27cd11ea10a088",
+    "url": "/frozen-foods/static/media/maionese-batata.a6a724ab.jpg"
   },
   {
     "revision": "53532543eefdd690cf991096bfa23796",
     "url": "/frozen-foods/static/media/meals-type-home.53532543.jpg"
   },
   {
-    "revision": "a35f69b9fce382f506e0e4a280ad81d6",
-    "url": "/frozen-foods/static/media/panetone.a35f69b9.jpg"
+    "revision": "9b30c2cad72f6cde290037797d41cbc0",
+    "url": "/frozen-foods/static/media/panetone.9b30c2ca.jpg"
   },
   {
-    "revision": "a3ff7e62398cfe3f10b758f7fa5f6886",
-    "url": "/frozen-foods/static/media/pernil-ceia.a3ff7e62.jpg"
+    "revision": "b23b7584a59fb70179a2b834de0e8df3",
+    "url": "/frozen-foods/static/media/pernil-ceia.b23b7584.jpg"
   },
   {
-    "revision": "31e06ba1f5d83991e13b9cc4bfcf5481",
-    "url": "/frozen-foods/static/media/pernil.31e06ba1.jpg"
+    "revision": "0c735c6c48b92bccfb1946f239b83db4",
+    "url": "/frozen-foods/static/media/pernil.0c735c6c.jpg"
   },
   {
-    "revision": "7a80e0f3d0212b60092b5aa0c3c8a2b4",
-    "url": "/frozen-foods/static/media/pudim.7a80e0f3.jpg"
+    "revision": "e7fc1db76fcba943c729f90bac17f2f6",
+    "url": "/frozen-foods/static/media/pudim.e7fc1db7.jpg"
   },
   {
-    "revision": "eb10c3834c4b36375538f5b1aac7d55c",
-    "url": "/frozen-foods/static/media/salada-verde.eb10c383.jpg"
+    "revision": "034e2224009fba5945315b22f16b8819",
+    "url": "/frozen-foods/static/media/salada-verde.034e2224.jpg"
   },
   {
     "revision": "94f5cf120724844c63eaa15191e7520d",
     "url": "/frozen-foods/static/media/sales-letter-header.94f5cf12.jpg"
   },
   {
-    "revision": "d9b96acb325b9e3f59f89fab40eff161",
-    "url": "/frozen-foods/static/media/salpicao.d9b96acb.jpg"
+    "revision": "9d6d38db51064bc5de34d6e49d312df7",
+    "url": "/frozen-foods/static/media/salpicao.9d6d38db.jpg"
   },
   {
     "revision": "3f58078954d908cf96fe6728779ecf1b",
