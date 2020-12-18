@@ -1,0 +1,6 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body { font-family: 'Baloo 2', cursive; color: #333;}
+input,button:focus{ outline: none; }
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+/* Tia Leila Pallete */
+/* 72259e 40df9b 39c9a8 33b9b2 3bb2b8 */
