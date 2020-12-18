@@ -19,6 +19,7 @@ import Ceia from './Ceia';
 import Ingredient from './Ingredient';
 import Modal from '../../components/Modal';
 import Form from './Form';
+import CountDown from './CountDown';
 
 const ceias = [
     {
@@ -88,7 +89,7 @@ const individualIngredients = [
 ]
 
 // animation
-const anyDoubtVariants = {
+const appearVariants = {
     initial: { scale: 0 },
     animate: { scale: 1 },
 }
@@ -105,14 +106,14 @@ const CeiaNatal = () => {
 
     useEffect( () => {
         const scrollHandle = () => {
-        const totalScroll = (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-        const currentScroll = document.documentElement.scrollTop;
-        const scrollPercentage = (currentScroll * 100) / totalScroll;
+            const totalScroll = (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+            const currentScroll = document.documentElement.scrollTop;
+            const scrollPercentage = (currentScroll * 100) / totalScroll;
     
-        if ( scrollPercentage >= 42 ) {
-            anyDoubtControl.start("animate");
-            window.removeEventListener('scroll', scrollHandle);
-        }
+            if ( scrollPercentage >= 42 ) {
+                anyDoubtControl.start("animate");
+                window.removeEventListener('scroll', scrollHandle);
+            }
         }
 
         window.addEventListener('scroll', scrollHandle);
@@ -206,11 +207,16 @@ const CeiaNatal = () => {
                     onClick={orderHandle.bind(null, "Individual Ingredients")}
                 >ENCOMENDAR</CTA>
             </IndividualIngredients>
+
+            {/* CountDown */}
+            <CountDown />
+
+            {/* Doubt */}
             <AnyDoubt
                 href="https://wa.me/555198150292?text=Oii%20%F0%9F%99%82%20tenho%20a%20seguinte%20d%C3%BAvida%3A"
                 target="_blank"
 
-                variants={anyDoubtVariants}
+                variants={appearVariants}
                 initial="initial"
                 animate={anyDoubtControl}
             >

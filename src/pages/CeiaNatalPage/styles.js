@@ -138,6 +138,6 @@ export const AnyDoubt = styled(motion.a)`
 
 `;
 export const WppLogoIcon = styled(IoLogoWhatsapp)`
-  font-size: 3rem;
+  font-size: 2rem;
   color: #00e676;
 `;
