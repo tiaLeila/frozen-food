@@ -25,7 +25,7 @@ const ceias = [
     {
         img: "chester-ceia.jpg",
         title: "Ceia Boas Festas",
-        ingredients: ["Chester decorado com Fio de Ovos e Pêsseego", "Arroz à Grega ou Branco", "Fafora Natalina", "Salpicão", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
+        ingredients: ["Chester decorado com Fio de Ovos e Pêssego", "Arroz à Grega ou Branco", "Fafora Natalina", "Salpicão", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
         plans: [
             { amountOfPeople: 2, price: 244 },
             { amountOfPeople: 4, price: 436 },
@@ -35,7 +35,7 @@ const ceias = [
     },{
         img: "pernil-ceia.jpg",
         title: "Ceia da Prosperidade",
-        ingredients: ["Pernil Assado ao Molho Agridoce", "Lentilha de Ano Novo", "Arroz à Grega ou Branco", "Fafora Réveillon", "Salpicão", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
+        ingredients: ["Pernil Assado ao Molho Agridoce", "Lentilha de Ano Novo", "Arroz à Grega ou Branco", "Fafora Réveillon", "Salpicão Réveillon", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
         plans: [
             { amountOfPeople: 2, price: 244 },
             { amountOfPeople: 4, price: 436 },
