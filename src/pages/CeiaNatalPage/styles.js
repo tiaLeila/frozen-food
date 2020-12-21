@@ -3,8 +3,6 @@ import { motion } from 'framer-motion';
 import { IoLogoWhatsapp } from 'react-icons/io'
 
 export const Container = styled.div`
-    padding-bottom: 100px;
-
     scroll-behavior: smooth;
 `;
 
@@ -95,6 +93,7 @@ export const Promo = styled.div`
 `;
 
 export const IndividualIngredients = styled.article`
+    padding-bottom: 40px;
     header {
         padding: 30px 5px;
 
@@ -140,4 +139,35 @@ export const AnyDoubt = styled(motion.a)`
 export const WppLogoIcon = styled(IoLogoWhatsapp)`
   font-size: 2rem;
   color: #00e676;
+`;
+
+// TESTIMONIALS
+export const TestimonialsWrapper = styled.article`
+    margin: 0 auto;
+    padding: 25px 0;
+    padding-bottom: 100px;
+
+
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+
+    h1 { margin-bottom: 20px; padding: 0 10px; font-size: 2rem;}
+`;
+export const TestimonialsImages = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    img { width: 100%; padding: 5px;}
+
+    @media (min-width: 768px) { width: 600px;}
+
+    @media (min-width: 1024px) {
+        img { width: 50%; }
+    }
 `;

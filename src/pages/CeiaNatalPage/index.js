@@ -12,6 +12,8 @@ import {
     CTA,
     AnyDoubt,
     WppLogoIcon,
+    TestimonialsImages,
+    TestimonialsWrapper,
 } from './styles';
 import { H1 } from '../../components/styledComponents';
 import ImgGift from '../../img/ceia/gift.png';
@@ -93,6 +95,9 @@ const appearVariants = {
     initial: { scale: 0 },
     animate: { scale: 1 },
 }
+
+// testimonials images
+const ceiaTestimonials = [0,22,1,5,6,28,10,11,20,21,27]
 
 const CeiaNatal = () => {
     // local state
@@ -207,6 +212,22 @@ const CeiaNatal = () => {
                     onClick={orderHandle.bind(null, "Individual Ingredients")}
                 >ENCOMENDAR</CTA>
             </IndividualIngredients>
+
+            {/* TESTIMONIALS */}
+            <TestimonialsWrapper>
+                <h1>O que estão dizendo da nossa ceia:</h1>
+                <TestimonialsImages>
+                    {
+                        (() => {
+                            const testimonialsImages = [];
+                            ceiaTestimonials.forEach( (imgName, i) => {
+                                testimonialsImages.push(<img key={i} alt="depoimento" src={require(`../../img/testimonials/${imgName}.jpg`)} />)
+                            })
+                            return testimonialsImages;
+                        })()
+                    }
+                </TestimonialsImages>
+            </TestimonialsWrapper>
 
             {/* CountDown */}
             <CountDown />
