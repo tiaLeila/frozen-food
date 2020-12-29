@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/frozen-foods/static/css/main.c33a1955.chunk.css",
-    "main.js": "/frozen-foods/static/js/main.f742cdd3.chunk.js",
-    "main.js.map": "/frozen-foods/static/js/main.f742cdd3.chunk.js.map",
+    "main.js": "/frozen-foods/static/js/main.10fc2697.chunk.js",
+    "main.js.map": "/frozen-foods/static/js/main.10fc2697.chunk.js.map",
     "runtime-main.js": "/frozen-foods/static/js/runtime-main.310e6d8c.js",
     "runtime-main.js.map": "/frozen-foods/static/js/runtime-main.310e6d8c.js.map",
-    "static/js/2.02be0447.chunk.js": "/frozen-foods/static/js/2.02be0447.chunk.js",
-    "static/js/2.02be0447.chunk.js.map": "/frozen-foods/static/js/2.02be0447.chunk.js.map",
+    "static/js/2.d34e57f7.chunk.js": "/frozen-foods/static/js/2.d34e57f7.chunk.js",
+    "static/js/2.d34e57f7.chunk.js.map": "/frozen-foods/static/js/2.d34e57f7.chunk.js.map",
     "index.html": "/frozen-foods/index.html",
-    "precache-manifest.ee1dc520cc7e471c5b1e2a7c08774e77.js": "/frozen-foods/precache-manifest.ee1dc520cc7e471c5b1e2a7c08774e77.js",
+    "precache-manifest.b229cad42d86ac3e0a7309e6f5d05124.js": "/frozen-foods/precache-manifest.b229cad42d86ac3e0a7309e6f5d05124.js",
     "service-worker.js": "/frozen-foods/service-worker.js",
     "static/css/main.c33a1955.chunk.css.map": "/frozen-foods/static/css/main.c33a1955.chunk.css.map",
-    "static/js/2.02be0447.chunk.js.LICENSE.txt": "/frozen-foods/static/js/2.02be0447.chunk.js.LICENSE.txt",
+    "static/js/2.d34e57f7.chunk.js.LICENSE.txt": "/frozen-foods/static/js/2.d34e57f7.chunk.js.LICENSE.txt",
     "static/media/0.jpg": "/frozen-foods/static/media/0.aac6d577.jpg",
     "static/media/1.jpg": "/frozen-foods/static/media/1.d584f993.jpg",
     "static/media/10.jpg": "/frozen-foods/static/media/10.b1542e8a.jpg",
@@ -74,6 +74,8 @@
     "static/media/dish26.jpg": "/frozen-foods/static/media/dish26.a9dc3363.jpg",
     "static/media/dish27.jpg": "/frozen-foods/static/media/dish27.2c392083.jpg",
     "static/media/farofa.jpg": "/frozen-foods/static/media/farofa.2c3334f6.jpg",
+    "static/media/fogos.jpg": "/frozen-foods/static/media/fogos.4df3795b.jpg",
+    "static/media/fogos2.jpg": "/frozen-foods/static/media/fogos2.16014725.jpg",
     "static/media/gift.png": "/frozen-foods/static/media/gift.85ffe14e.png",
     "static/media/hungry-and-hourglass.png": "/frozen-foods/static/media/hungry-and-hourglass.92187910.png",
     "static/media/hungry-emoji.png": "/frozen-foods/static/media/hungry-emoji.35f0a553.png",
@@ -96,8 +98,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.310e6d8c.js",
-    "static/js/2.02be0447.chunk.js",
+    "static/js/2.d34e57f7.chunk.js",
     "static/css/main.c33a1955.chunk.css",
-    "static/js/main.f742cdd3.chunk.js"
+    "static/js/main.10fc2697.chunk.js"
   ]
 }
