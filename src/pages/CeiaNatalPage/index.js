@@ -15,7 +15,7 @@ import {
     TestimonialsImages,
     TestimonialsWrapper,
 } from './styles';
-import { H1 } from '../../components/styledComponents';
+import { H1, P } from '../../components/styledComponents';
 import ImgGift from '../../img/ceia/gift.png';
 import Ceia from './Ceia';
 import Ingredient from './Ingredient';
@@ -24,17 +24,18 @@ import Form from './Form';
 import CountDown from './CountDown';
 
 const ceias = [
+    // {
+    //     img: "chester-ceia.jpg",
+    //     title: "Ceia Boas Festas",
+    //     ingredients: ["Chester decorado com Fio de Ovos e Pêssego", "Arroz à Grega ou Branco", "Fafora Natalina", "Salpicão", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
+    //     plans: [
+    //         { amountOfPeople: 2, price: 244 },
+    //         { amountOfPeople: 4, price: 436 },
+    //         { amountOfPeople: 6, price: 594 },
+    //     ],
+    //     color: "#F45563",
+    // },
     {
-        img: "chester-ceia.jpg",
-        title: "Ceia Boas Festas",
-        ingredients: ["Chester decorado com Fio de Ovos e Pêssego", "Arroz à Grega ou Branco", "Fafora Natalina", "Salpicão", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
-        plans: [
-            { amountOfPeople: 2, price: 244 },
-            { amountOfPeople: 4, price: 436 },
-            { amountOfPeople: 6, price: 594 },
-        ],
-        color: "#F45563",
-    },{
         img: "pernil-ceia.jpg",
         title: "Ceia da Prosperidade",
         ingredients: ["Pernil Assado ao Molho Agridoce", "Lentilha de Ano Novo", "Arroz à Grega ou Branco", "Fafora Réveillon", "Salpicão Réveillon", "Pudim ou Chocotone e Panetone", "Maionese de Batata ou de Aipim ou Salada Verde"],
@@ -67,7 +68,7 @@ const individualIngredients = [
         name: "Panetone",
         img: "panetone.jpg"
     },{
-        name: "Salpicão",
+        name: "Salpicão Réveillon",
         img: "salpicao.jpg"
     },{
         name: "Farofa",
@@ -141,24 +142,23 @@ const CeiaNatal = () => {
     return (
         <Container>
             <Header>
-                <H1 fontSize="1.5rem" >Ceia de Natal</H1>
-                <H1 fontSize="5rem">100% OFF</H1>
-                <H1 fontSize="1.5rem">100% off no ESTRESSE, na PREOCUPAÇÃO e na CORRERIA de última hora</H1>
+                <article>
+                    <H1 fontSize="1.5rem" >Ceia</H1>
+                    <H1 fontSize="4rem" className="reveillon" >RÉVEILLON</H1>
+                    <P fontSize="1.5rem" className="textWithBgDark">Para entrar o ano SEM ESTRESSE, SEM PREOCUPAÇÃO e SEM CORRERIA de última hora!</P>
 
-                <H1 fontSize="1rem" margin="25px 0px">Você quer mesmo ficar naquela preocupação e correria de última hora, na vésperera de natal?</H1>
-
-                <CTAHeader
-                    onClick={ctaHeaderHandle}
-                >ESPIAR A CEIA</CTAHeader>
-
-                <HeaderImg src={ImgGift} alt="gift" />
+                    <CTAHeader
+                        onClick={ctaHeaderHandle}
+                    >ESPIAR A CEIA</CTAHeader>
+                </article>
+                {/* <HeaderImg src={ImgGift} alt="gift" /> */}
             </Header>
 
             <Ceias
                 ref={ceiasRef}
             >
                 <header>
-                    <h1>Ceias</h1>
+                    <h1>Ceia</h1>
                 </header>
                 {
                     ceias.map( (ceia, index) => (
@@ -182,9 +182,9 @@ const CeiaNatal = () => {
 
             <Promo>
                 <div>
-                    <h2>Leve uma <span>Ceia de Natal</span> e</h2>
+                    <h2>Leve uma <span>Ceia de Réveillon</span> e</h2>
                     <h1><span>GANHE 10% de DESCONTO</span></h1>
-                    <h2>na <span>Ceia de Reveillon</span></h2>
+                    <h2>na segunda</h2>
                 </div>
                 <CTA
                     ctaColor="#000"

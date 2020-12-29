@@ -1,32 +1,45 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { IoLogoWhatsapp } from 'react-icons/io'
+import { IoLogoWhatsapp } from 'react-icons/io';
+import bgHeader from '../../img/ceia/fogos.jpg';
 
 export const Container = styled.div`
     scroll-behavior: smooth;
 `;
 
 export const Header = styled.header`
-    padding: 35px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image: url(${bgHeader});
+    background-position: center;
+    
+    article {
+        width: 100%;
+        height: 100%;
+        padding: 100px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    background-color: #F45563;
+        backdrop-filter: blur(2px);
+    }
 
-    h1 { max-width: 500px; text-align: center; color: #fff; }
+    .reveillon { text-shadow: 0 0 20px #fff; }
+    .textWithBgDark { margin: 50px 0; text-shadow: 0 0 4px #0007; }
+
+    h1, p { max-width: 500px; text-align: center; color: #fff; }
 `;
 
 export const CTAHeader = styled.button`
     padding: 20px 35px;
 
     font-size: 1.5rem;
-    color: #fff;
+    color: #000;
     font-weight: bold;
-    background-color: #000;
-    border: 4px solid #fff;
-    border-radius: 5px;
+    background-color: #ffb400;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    border-right: 4px solid #000;    
 
     transition: all .1s ease;
     &:active { transform: scale(0.9, 0.9) }

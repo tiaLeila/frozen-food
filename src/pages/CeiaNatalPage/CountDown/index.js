@@ -23,7 +23,7 @@ const CountDown = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countDownDate = new Date(2020, 11, 21, 23, 59, 59); // 20/12/20 23:59:59
+        const countDownDate = new Date(2020, 11, 30, 23, 59, 59); // 20/12/30 23:59:59
 
         interval = setInterval( () => {
             const dateNow = new Date().getTime();
