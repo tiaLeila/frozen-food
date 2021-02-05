@@ -150,8 +150,8 @@ const CheckoutForm = () => {
             // TEST
             let text = "Oii! Segue meu *pedido* abaixo:\n\n";
             selectedMeals.forEach( ({description}, i) => {
-                if ( (i) === selectedMeals.length - 3) {
-                    text += `*#${i+1}* _${description}_;_${plan.amountMeals}`;
+                if ( (i+1) === selectedMeals.length - 3) {
+                    text += `*#${i+1}* _${description}_;_${plan.amountMeals}\n\n`;
                 }
                 else text += `*#${i+1}* _${description}_;\n\n`;
             })
