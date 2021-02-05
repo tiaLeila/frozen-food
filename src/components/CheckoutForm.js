@@ -160,7 +160,7 @@ const CheckoutForm = () => {
             alert('Vou te redirecionar para nosso Whatsapp. Aí, basta enviar a mensagem que já estará preenchida com seu pedido. OK?')
             const url = `https://api.whatsapp.com/send?phone=5551998150292&text=${text}`;
 
-            window.location = url;
+            window.location.href = url;
             // END TEST
         } catch (err) {
             setLoading(false);
