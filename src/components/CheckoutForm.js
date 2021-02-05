@@ -129,23 +129,39 @@ const CheckoutForm = () => {
                 return false;
             }
 
-            const data = {
-                client: {
-                    name: state.name,
-                    phone: `${state.phone}`
-                },
-                meals: selectedMeals,
-                selectedPlan: plan.amountMeals,
-            }
+            // const data = {
+            //     client: {
+            //         name: state.name,
+            //         phone: `${state.phone}`
+            //     },
+            //     meals: selectedMeals,
+            //     selectedPlan: plan.amountMeals,
+            // }
 
-            setLoading(true);
-            const response = await api.post('/newOrder', data);
-            setLoading(false);
+            // setLoading(true);
+            // const response = await api.post('/newOrder', data);
+            // setLoading(false);
 
-            if ( response.data.error ) throw new Error(`Eiita! Aconteceu algo errado que não está certo! Me chama no WhatsApp para que eu possa finalizar teu pedido. MEU WHATSAPP: (51) 99815-0292`);
+            // if ( response.data.error ) throw new Error(`Eiita! Aconteceu algo errado que não está certo! Me chama no WhatsApp para que eu possa finalizar teu pedido. MEU WHATSAPP: (51) 99815-0292`);
 
-            planDispatchers.setClientName(state.name);
-            history.push('/order-sent');
+            // planDispatchers.setClientName(state.name);
+            // history.push('/order-sent');
+
+            // TEST
+            let text = '';
+            selectedMeals.forEach( ({description}, i) => {
+                if ( (i+1) === selectedMeals.length) {
+                    text += `*#${i+1}* _${description}_;_${plan.amountMeals}`;
+                }
+                else text += `*#${i+1}* _${description}_;\n\n`;
+            })
+
+            text = encodeURIComponent(text);
+            alert('Vou te redirecionar para nosso Whatsapp. Aí, basta enviar a mensagem que já estará preenchida com seu pedido. OK?')
+            const url = `https://api.whatsapp.com/send?phone=5551998150292&text=${text}`;
+
+            window.location = url;
+            // END TEST
         } catch (err) {
             setLoading(false);
             // alert(err.message);

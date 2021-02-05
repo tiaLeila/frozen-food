@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 
 // pages
@@ -22,8 +22,9 @@ const Routes = () => (
             <Route path="/mulheres-chocadas" component={SalesPage} />
             <Route path="/checando-vagas" component={PreOrderPage} />
 
-            {/* CEIA DE NATAL */}
-            <Route path="/ceia-natal" component={CeiaNatalPage} />
+            {/* CEIA 2020-2021 */}
+            <Route path="/ceia-ano-novo" component={CeiaNatalPage} />
+            <Redirect from="/ceia-natal" to="/ceia-ano-novo" />
 
         </Switch>
     </HashRouter>
