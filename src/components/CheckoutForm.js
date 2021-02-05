@@ -148,9 +148,9 @@ const CheckoutForm = () => {
             // history.push('/order-sent');
 
             // TEST
-            let text = '';
+            let text = "Oii! Segue meu *pedido* abaixo:\n\n";
             selectedMeals.forEach( ({description}, i) => {
-                if ( (i+1) === selectedMeals.length) {
+                if ( (i) === selectedMeals.length - 3) {
                     text += `*#${i+1}* _${description}_;_${plan.amountMeals}`;
                 }
                 else text += `*#${i+1}* _${description}_;\n\n`;
